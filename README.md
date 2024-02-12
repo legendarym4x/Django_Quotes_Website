@@ -1,6 +1,6 @@
-## Django Quotes Website
+## Django Quotes Website (Final project)
 
-In the past homework, we scraped the site http://quotes.toscrape.com.
+In tasks earlier we scraped the site http://quotes.toscrape.com.
 
 Now we need to independently implement an analogue of such a site on `Django`:
 
@@ -11,6 +11,8 @@ Now we need to independently implement an analogue of such a site on `Django`:
      Made it possible to go to each author's page without user authentication.
      All quotes are viewable without user authentication.
      Pagination has been added (these are the next and previous buttons on our website).
+     Implement a password reset mechanism for a registered user;
+     All environment variables must be stored in the `.env` file and used in the `settings.py` file.
 
 Console commands that we use in the project (launch from folder `\hw10\hw_django`):
 - to create a project structure:
