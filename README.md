@@ -1,4 +1,4 @@
-## Homework 10
+## Django Quotes Website
 
 In the past homework, we scraped the site http://quotes.toscrape.com.
 
@@ -14,13 +14,13 @@ Now we need to independently implement an analogue of such a site on `Django`:
 
 Console commands that we use in the project (launch from folder `\hw10\hw_django`):
 - to create a project structure:
-    1) `python manage.py quotes`  
+    * `python manage.py quotes`  
 - to create applications inside the project:
-    1) `python manage.py startapp quotes` 
-    2) `python manage.py startapp users` 
+    * `python manage.py startapp quotes` 
+    * `python manage.py startapp users` 
 - to start the server:
-    1) `python manage.py runserver`
+    * `python manage.py runserver`
 - for migration:
-    1) `python manage.py makemigrations` 
-    2) `python manage.py migrate`
-    3) `python -m utils.migration`
+    * `python manage.py makemigrations` 
+    * `python manage.py migrate`
+    * `python -m utils.migration`
